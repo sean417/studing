@@ -1,0 +1,63 @@
+# Java
+hs_err_pid*
+zookeeper-server/version-2/*
+
+# Git
+*.orij
+*.rej
+
+# SVN
+.svn
+.revision
+
+# Eclipse
+.metadata
+.classpath
+.eclipse/
+.idea/
+.project
+.revision/
+.settings/
+.externalToolBuilders/
+local.properties
+.recommenders
+*.launch
+build/
+target/
+out/
+
+# Intellij
+*.ipr
+*.iws
+*.iml
+
+# NetBeans
+*~.nib
+nbbuild/
+nbproject/
+dist/
+nbdist/
+.ndb-gradle/
+.cproject
+.buildpath
+nb-configuration.xml
+nbactions.xml
+
+# vscode
+classes
+.vscode
+
+# Other
+*~
+logs/
+*.out
+*.log
+*.bak
+*.tmp
+tmp/**
+tmp/**/*
+.DS_Store
+.gradle
+*.patch
+*.swp
+.ant-targets-build.xml

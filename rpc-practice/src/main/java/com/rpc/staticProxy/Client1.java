@@ -1,0 +1,14 @@
+package com.rpc.staticProxy;
+
+import com.rpc.UserService;
+import com.rpc.UserServiceImpl;
+
+public class Client1 {
+    public static void main(String[] args) {
+        UserService userServiceImpl = new UserServiceImpl();
+        UserService proxy = new UserServiceProxy(userServiceImpl);
+
+        proxy.select();
+        proxy.update();
+    }
+}
