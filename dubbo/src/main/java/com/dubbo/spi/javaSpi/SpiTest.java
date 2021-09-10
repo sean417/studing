@@ -11,6 +11,7 @@ import java.util.ServiceLoader;
 public class SpiTest {
     public static void main(String[] args) {
         ServiceLoader<CourseService> serviceLoader = ServiceLoader.load(CourseService.class);
+
         // 执行
         for (CourseService courseService : serviceLoader) {
             courseService.classBegin();
